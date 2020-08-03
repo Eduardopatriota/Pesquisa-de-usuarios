@@ -55,7 +55,7 @@ function showInteraction(){
     divSpinner.classList.add('hidden')
     divInteraction.classList.remove('hidden')
     
-  }, 2000);
+  }, 1000);
 }
 
 function addEvents() {
