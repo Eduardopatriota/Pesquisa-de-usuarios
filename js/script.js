@@ -62,17 +62,21 @@ function addEvents() {
   inputSearch.addEventListener('keyup', handleKeyUp);
 }
 
+
 function handleKeyUp(event) {
   const currentKey = event.key;
-
-  if (currentKey !== 'Enter') {
-    return;
-  }
+     
+  //  if (currentKey !== 'Enter' ) {
+  //    return;
+  //  }
+   
+  
   const filterText = event.target.value;
-
+  
   if (filterText.trim() !== '') {
     filterUsers(filterText);
-
+    
+    
   }
 }
 
